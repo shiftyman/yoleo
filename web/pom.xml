@@ -7,17 +7,21 @@
     <artifactId>yoleo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>yoleo-admin</artifactId>
-  <name>yoleo-admin</name>
+  <groupId>com.wind</groupId>
+  <artifactId>web</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>web Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
   <dependencies>
-		<dependency>
-			<groupId>com.wind</groupId>
-			<artifactId>yoleo-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-	</dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>web</finalName>
+  </build>
 </project>
