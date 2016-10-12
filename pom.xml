@@ -15,12 +15,10 @@
   </properties>
 
   <modules>
-  	<module>yoleo-web</module>
   	<module>yoleo-service</module>
   	<module>yoleo-repository</module>
   	<module>yoleo-common</module>
   	<module>yoleo-admin</module>
-    <module>web</module>
-    <module>yeleo-web</module>
+  	<module>yoleo-web</module>
   </modules>
 </project>
